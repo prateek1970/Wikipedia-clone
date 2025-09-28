@@ -1,0 +1,67 @@
+body {
+            font-family: sans-serif;
+            background-color: #f8f9fa;
+            color: #202122;
+        }
+        .content-container {
+            max-width: 1000px;
+            margin: 0 auto; /* Centering the container */
+        }
+        .main-content {
+            background-color: #ffffff;
+            border: 1px solid #a7d7f9;
+            border-top: none;
+            padding: 1.5rem 2rem;
+        }
+        .header-container {
+             border-bottom: 1px solid #c8ccd1;
+        }
+        .sidebar {
+            width: 350px;
+        }
+        .search-input {
+            border: 1px solid #a2a9b1;
+        }
+        .search-input:focus {
+            border-color: #36c;
+            box-shadow: 0 0 0 1px #36c;
+        }
+        .search-button {
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        .link-blue {
+            color: #3366cc;
+            text-decoration: none;
+        }
+        .link-blue:hover {
+            text-decoration: underline;
+        }
+        .infobox {
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+        }
+        .infobox th {
+            background-color: #d8d8d8;
+            font-weight: normal;
+            text-align: center;
+        }
+        .infobox td {
+            padding: 0.25rem 0.5rem;
+        }
+        .temporal-range {
+            border: 1px solid #a2a9b1;
+            font-size: 0.75rem;
+        }
+        .temporal-range div {
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        .nav-tabs li a.active {
+            border-bottom: 2px solid #3366cc;
+            color: #202122;
+        }
+        .nav-tabs li a {
+            color: #54595d;
+        }
